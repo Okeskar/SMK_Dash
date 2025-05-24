@@ -141,3 +141,4 @@ elif st.session_state.logged_in and st.session_state.page == "dashboard":
                 )
         else:
             st.error("Selected PDF file not found.")
+            #new dashboard
