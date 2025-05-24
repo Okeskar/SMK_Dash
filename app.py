@@ -84,6 +84,7 @@ elif st.session_state.logged_in and st.session_state.page == "dashboard":
             st.session_state.page = "login"
             st.experimental_rerun()
 
+
     if search_button and city and category and gut_number:
         folder_path = os.path.join(BASE_DIR, city, category)
         matched_files = []
